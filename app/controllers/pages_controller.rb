@@ -3,6 +3,7 @@ class PagesController < ApplicationController
   end
 
   def show
+    @message = "hello"
     render 'show.html.erb'
   end
 end
